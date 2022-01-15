@@ -60,12 +60,15 @@ Core i3-3220 CPU (Ivy Bridge) at 3.30GHz. Each was run 5 times,
 with their times to complete in seconds being averaged. This was
 then performed again at different optimization levels.
 
+**Average time to complete execution (seconds), based on
+the compiler and optimization level**
+
 | Clang 7.0.1            | -O0  | -O1  | -O2  | -O3  | -Ofast |
 | :--------------------- | ---: | ---: | ---: | ---: | -----: |
-| No threading (control) | 32.2 | 18.4 | 16.4 | 16.2 |  45.8  |
-| Computed goto          | 18.8 |  5.4 |  5.4 |  5.2 |   5.4  |
+| No threading (control) | 32.2s | 18.4 | 16.4 | 16.2 |  45.8  |
+| Computed goto          | 18.8s |  5.4 |  5.4 |  5.2 |   5.4  |
 | Continuation passing   |  \*  |  7.8 |  5.6 |  5.8 |   4.6  |
-| Switch statement       | 22.0 | 13.4 |  7.2 |  6.6 |   6.6  |
+| Switch statement       | 22.0s | 13.4 |  7.2 |  6.6 |   6.6  |
 
 | GCC 8.3.0              | -O0  | -O1  | -O2  | -O3  | -Ofast |
 | :--------------------- | ---: | ---: | ---: | ---: | -----: |
