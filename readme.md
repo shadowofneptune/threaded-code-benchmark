@@ -74,7 +74,7 @@ levels.
 | Continuation passing   |  \*  |  9.0 |  6.2	|  6.2 |   6.2  |
 | Switch statement       | 22.0 |	13.6 | 12.8 |	24.6 |	24.2  |
 
-| Clang 7.0.1            | -O0  | -O1  | -O2  | -O3  | -Ofast |
+| ICC 2021.5.0           | -O0  | -O1  | -O2  | -O3  | -Ofast |
 | :--------------------- | ---: | ---: | ---: | ---: | -----: |
 | No threading (control) | 39.0 | 20.4 | 19.8 | 20.4 |   21.0 |
 | Computed goto          | 23.8 |	 5.2 |  5.4 |  5.2 |	 5.2  |
