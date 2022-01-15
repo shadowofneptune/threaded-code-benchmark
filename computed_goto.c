@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <time.h>
 
-//I really with I could avoid the use of void* and casts here, but
-//this typedef would be recursive otherwise.
-
 typedef enum{
 	begin, incr_i, print_i, branch, loop, quit
 } program;
