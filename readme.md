@@ -56,9 +56,9 @@ So, how do these examples compare to each other?
 # Test results:
 
 I tested these VMs on a desktop computer running Debian with an Intel 
-Core i3-3220 CPU (Ivy Bridge) at 3.30GHz. Each was run 5 times, then
-averaged. This was then performed again at different optimization
-levels.
+Core i3-3220 CPU (Ivy Bridge) at 3.30GHz. Each was run 5 times,
+with their times to complete in seconds being averaged. This was
+then performed again at different optimization levels.
 
 | Clang 7.0.1            | -O0  | -O1  | -O2  | -O3  | -Ofast |
 | :--------------------- | ---: | ---: | ---: | ---: | -----: |
