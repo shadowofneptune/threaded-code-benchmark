@@ -8,7 +8,7 @@ These files are a test of three different techniques for produced fast threaded
 code. Each .c file implements a simple VM that counts to 2 billion, printing
 a star whenever the loop counter is evenly divisible by 200 million. The
 test settings can be changed in threaded_code.h. They all can be compiled and
-ran with 'make benchmark'.
+run with 'make benchmark'.
 
 # The VMs
 
